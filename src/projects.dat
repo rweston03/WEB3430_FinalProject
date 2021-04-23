@@ -1,0 +1,57 @@
+[
+  {
+    "id": 69,
+    "title": "Lorem ipsum dolor",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores reiciendis in non nihil cupiditate aliquid commodi natus. Iste magnam illum, iusto earum voluptatem voluptatum perspiciatis quaerat doloribus dicta architecto aperiam?",
+    "creator": "John Doe",
+    "type": "full-stack",
+    "status": "in-progress",
+    "progress": 83,
+    "beginDate": "2020-09-10T00:00:00.000Z",
+    "finishDate": "2020-11-29T00:00:00.000Z"
+  },
+  {
+    "id": 70,
+    "title": "Amet consectetur adipisicing elit",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa error maxime alias id quisquam, quos commodi! Ex minus, molestias explicabo exercitationem ea voluptatum, itaque ipsum quos doloribus id quae?",
+    "creator": "Mark Smith",
+    "type": "static",
+    "status": "in-progress",
+    "progress": 85,
+    "beginDate": "2020-03-02T00:00:00.000Z",
+    "finishDate": "2020-05-06T00:00:00.000Z"
+  },
+  {
+    "id": 71,
+    "title": "Debitis esse eaque iste ad mollitia",
+    "description": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius repellendus, placeat quasi facere unde dolor blanditiis tempora tenetur debitis esse eaque iste ad mollitia ea voluptatem pariatur aut, minus totam.",
+    "creator": "John Doe",
+    "type": "front-end",
+    "status": "finished",
+    "progress": 100,
+    "beginDate": "2020-06-03T00:00:00.000Z",
+    "finishDate": "2020-09-30T00:00:00.000Z"
+  },
+  {
+    "id": 72,
+    "title": "Molestiae tenetur soluta app",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nulla magni ex. Dolores magnam vitae, nulla nostrum delectus corporis aliquam exercitationem vero, voluptates, dolore libero aspernatur. Molestiae tenetur soluta id.",
+    "creator": "Matt Jones",
+    "type": "full-stack",
+    "status": "cancelled",
+    "progress": 27,
+    "beginDate": "2019-07-01T00:00:00.000Z",
+    "finishDate": "2019-10-30T00:00:00.000Z"
+  },
+  {
+    "id": 73,
+    "title": "Magni tempora voluptatibus commodi",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi autem fugit incidunt necessitatibus ipsam! Magni tempora voluptatibus commodi, asperiores ab in rerum mollitia fuga quia excepturi, incidunt harum. Eveniet, ipsam?",
+    "creator": "Jane Johns",
+    "type": "full-stack",
+    "status": "not-started",
+    "progress": 0,
+    "beginDate": "2021-01-12T00:00:00.000Z",
+    "finishDate": "2021-05-23T00:00:00.000Z"
+  }
+]
