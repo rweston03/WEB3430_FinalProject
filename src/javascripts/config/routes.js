@@ -1,6 +1,6 @@
 import express from 'express'
 
-import { indexPage, aboutPage, contactPage, signInPage, signUpPage } from '../controllers/index'
+import { indexPage, homePage, aboutPage, contactPage, signInPage, signUpPage } from '../controllers/index'
 import { allMenusAPI, oneMenuAPI, createMenuAPI, updateMenuAPI, deleteMenuAPI } from '../controllers/menus'
 import { allItemsAPI, itemsByMenuAPI, oneItemAPI, createItemAPI, updateItemAPI, deleteItemAPI } from '../controllers/items'
 import { contactAPI } from '../controllers/contacts'
@@ -43,7 +43,7 @@ export function configureRoutes(app) {
        next()
      })
     
-    router.get('/', indexPage)
+    router.get('/home', homePage)
     router.get('/about', aboutPage)
     router.get('/contact', contactPage)
     router.get('/signin', signInPage)

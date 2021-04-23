@@ -2,6 +2,10 @@ export const indexPage = (req, res, next) => {
     res.render('layout', {content: 'index', title: 'Corner Restaurant'})
 }
 
+export const homePage = (req, res, next) => {
+    res.render('layout', {content: 'home', title: 'Corner Restaurant'})
+}
+
 export const aboutPage = (req, res, next) => {
     res.render('layout', {content: 'about', title: 'Corner Restaurant'})
 }

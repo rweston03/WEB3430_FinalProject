@@ -57,7 +57,7 @@ export default function MenuList() {
           <Route path="/menus/:mid/edit"><MenuForm/></Route>
           <Route path="/menus/:mid"><Menu/></Route>
           <Route path="/items/:mname"><ItemList/></Route>
-          <Redirect from="" to="/menus"/>
+          <Redirect from="" to="/home"/>
           <Route path="*"><ErrorNotFound/></Route>
         </Switch>
       </main>
